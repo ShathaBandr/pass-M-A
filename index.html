@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>check password strength</title>
+</head>
+
+<body>
+
+    <form action="" method="post">
+
+        <div class="password-container">
+            <label>Enter password</label>  
+            <input type="text" name="password" id="password-field">
+            <div class="strength-container"> 
+
+                <p class="title">Password strength:
+                    <span class="strength-text"></span>
+                </p>
+
+                <div class="strength-bar-wrapper">
+                    <div id="strength-bar"></div>
+                </div>
+
+                <p class="strength-description">
+                    Passwords should be at least <i>7</i> characters long and max <i>12</i>. <br>
+                    Try use <strong>Symbols</strong> and <strong>UpperCasing</strong> , and <strong>numbers</strong>
+
+                <div class="arrow"></div>
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+<script src="script.js"></script>
+</body>
+</html>
